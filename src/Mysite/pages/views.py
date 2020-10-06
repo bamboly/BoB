@@ -13,6 +13,3 @@ def social_view(*args , **kwargs):
 
 def about_view(*args , **kwargs):
 	return HttpResponse("<h1>About_Page<h1>")
-
-def sobhan_view(*args , **kwargs):
-	return HttpResponse("<h1>Sobhan khar ast<h1>")
